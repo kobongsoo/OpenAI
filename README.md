@@ -24,6 +24,7 @@ python -m pip --version
 |[LlamaIndex_test](https://github.com/kobongsoo/OpenAI/blob/master/LlamaIndex_test.ipynb)|라마 인덱스를 이용항 GPT 인덱싱 예제|openapi key|
 |[LlamaIndex_test_googledoc](https://github.com/kobongsoo/OpenAI/blob/master/LlamaIndex_test_googledoc.ipynb)|라마 인덱스와 구글 DOC 를 이용항 GPT 인덱싱 예제|openapi key/google doc key 필요|
 |[페르소냐 채팅 예제](https://github.com/kobongsoo/OpenAI/blob/master/persona.py)|GPT를 활용한 유명인들에 대한 체팅 예제.|**tkinter GUI** 이용|
+|[이미지toText](https://github.com/kobongsoo/OpenAI/blob/master/OpenAI_Vison_example.ipynb)|GPT를 이용한 이미지 to Text 예제|**GPT-4oI** 이용|
 
 ## LangChain
 - LangChain은 Language Model로 구동되는 애플리케이션을 개발하기 위한 프레임워크.
