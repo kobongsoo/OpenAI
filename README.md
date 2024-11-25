@@ -5,7 +5,7 @@
 
 |소스명|설명|기타|
 |:-----------------|:-----------------------------------------------------------|:---------------------|
-|[엑사원 예제](https://github.com/kobongsoo/OpenAI/blob/master/sLLM/exaone.ipynb)|엑사원 8B 모델 한국어 프롬프트 테스트 예제임 sLLM 모델  및 OpenAI API 사용 예제|HuggingFace 이용|
+|[엑사원 예제](https://github.com/kobongsoo/OpenAI/blob/master/sLLM/exaone.ipynb)|엑사원 8B 모델 한국어 프롬프트 테스트 예제|HuggingFace 이용|
 |[groq 예제](https://github.com/kobongsoo/OpenAI/blob/master/sLLM/Groq.ipynb)|[groq](https://console.groq.com/login)에서 sLLM 모델들 API로 연동하는 예제|API_KEY 필요, LangChain 이용|
 
 ## LangChain
