@@ -1,4 +1,34 @@
-# OpenAI
+# sLLM 모델  및 OpenAI API 사용 예제
+
+## sLLM 모델 예제
+- sLLM 모델 예제
+
+|소스명|설명|기타|
+|:-----------------|:-----------------------------------------------------------|:---------------------|
+|[엑사원 예제](https://github.com/kobongsoo/OpenAI/blob/master/sLLM/exaone.ipynb)|엑사원 8B 모델 한국어 프롬프트 테스트 예제임 sLLM 모델  및 OpenAI API 사용 예제|HuggingFace 이용|
+|[groq 예제](https://github.com/kobongsoo/OpenAI/blob/master/sLLM/Groq.ipynb)|[groq](https://console.groq.com/login)에서 sLLM 모델들 API로 연동하는 예제|API_KEY 필요, LangChain 이용|
+
+## LangChain
+- LangChain은 Language Model로 구동되는 애플리케이션을 개발하기 위한 프레임워크.
+<br>Langchain 에 대한 자세한 내용은 [여기](https://python.langchain.com/en/latest/) 참조
+```
+pip install langchain
+# or
+conda install langchain -c conda-forge
+```
+|소스명|설명|기타|
+|:-----------------|:-----------------------------------------------------------|:---------------------|
+|[langchain_agent_ex](https://github.com/kobongsoo/OpenAI/blob/master/Langchain/langchain_agent_ex.ipynb)|Langchain 프레임워크를 이용한 gpt 연동 예|Google Serper 도구 API 키 필요|
+|[using_huggingface_with_langchain](https://github.com/kobongsoo/OpenAI/blob/master/Langchain/using_huggingface_with_langchain.ipynb)|huggingface text2text-generation 모델을 연동한 langchaing  Q&A 예제|huggingface API KEY 혹은 OpenAI API KEY 필요|
+
+## sLLM 모델 예제
+- sLLM 모델 예제
+
+|소스명|설명|기타|
+|:-----------------|:-----------------------------------------------------------|:---------------------|
+|[엑사원](https://github.com/kobongsoo/OpenAI/blob/master/Langchain/langchain_agent_ex.ipynb)|엑사원 8B 모델 한국어 프롬프트 테스트 예제임|
+|[using_huggingface_with_langchain](https://github.com/kobongsoo/OpenAI/blob/master/Langchain/using_huggingface_with_langchain.ipynb)|huggingface text2text-generation 모델을 연동한 langchaing  Q&A 예제|huggingface API KEY 혹은 OpenAI API KEY 필요|
+
 
 ## OpenAI API
 
@@ -25,19 +55,6 @@ python -m pip --version
 |[LlamaIndex_test_googledoc](https://github.com/kobongsoo/OpenAI/blob/master/LlamaIndex_test_googledoc.ipynb)|라마 인덱스와 구글 DOC 를 이용항 GPT 인덱싱 예제|openapi key/google doc key 필요|
 |[페르소냐 채팅 예제](https://github.com/kobongsoo/OpenAI/blob/master/persona.py)|GPT를 활용한 유명인들에 대한 체팅 예제.|**tkinter GUI** 이용|
 |[이미지toText](https://github.com/kobongsoo/OpenAI/blob/master/OpenAI_Vison_example.ipynb)|GPT를 이용한 이미지 to Text 예제|**GPT-4oI** 이용|
-
-## LangChain
-- LangChain은 Language Model로 구동되는 애플리케이션을 개발하기 위한 프레임워크.
-<br>Langchain 에 대한 자세한 내용은 [여기](https://python.langchain.com/en/latest/) 참조
-```
-pip install langchain
-# or
-conda install langchain -c conda-forge
-```
-|소스명|설명|기타|
-|:-----------------|:-----------------------------------------------------------|:---------------------|
-|[langchain_agent_ex](https://github.com/kobongsoo/OpenAI/blob/master/Langchain/langchain_agent_ex.ipynb)|Langchain 프레임워크를 이용한 gpt 연동 예|Google Serper 도구 API 키 필요|
-|[using_huggingface_with_langchain](https://github.com/kobongsoo/OpenAI/blob/master/Langchain/using_huggingface_with_langchain.ipynb)|huggingface text2text-generation 모델을 연동한 langchaing  Q&A 예제|huggingface API KEY 혹은 OpenAI API KEY 필요|
 
 
 
